@@ -5,17 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
   <title>Table</title>
   <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
-  <link rel="stylesheet" href="style.css?v=1">
+  <link rel="stylesheet" href="style.css?v=2">
 </head>
 <body>
   <div class="container">
     <div class="controls">
-      <label for="tableNumber">Table:</label>
-      <input type="number" id="tableNumber" min="2" max="20" value="2">
-      <button onclick="generateTable()">Generate Table</button>
+      <label for="t">Table:</label>
+      <input type="number" id="t" min="2" max="20" value="2">
+      <button onclick="gt()">Generate Table</button>
     </div>
-    <div id="tableContainer"></div>
+    <div class="tc"><table id="tc"></table></div>
   </div>
-  <script src="script.js?v=1"></script>
+  <script src="script.js?v=2"></script>
 </body>
 </html>

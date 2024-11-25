@@ -18,7 +18,7 @@ body {
 label {
   font-weight: bold;
 }
-input[type="number"] {
+input[type='number'] {
   width: 50px;
   padding: 5px;
   text-align: center;
@@ -34,7 +34,7 @@ button {
 button:hover {
   background: #005f99;
 }
-#tableContainer {
+.tc {
   margin-top: 10px;
   text-align: left;
 }
