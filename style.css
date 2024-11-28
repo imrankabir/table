@@ -9,10 +9,10 @@ body {
 }
 .container {
   margin: 0 auto;
-  max-width: 500px;
   background: #fff;
   padding: 10px 20px;
   border-radius: 10px;
+  max-width: fit-content;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 label {
@@ -39,7 +39,6 @@ button:hover {
   text-align: left;
 }
 table {
-  width: 80%;
   margin: 0 auto;
   border-collapse: collapse;
 }
@@ -53,8 +52,8 @@ tr:hover {
 td {
   padding: 8px;
   font-size: 20px;
+  text-align: left;
   font-weight: bold;
-  text-align: center;
   word-spacing: 30px;
   border: 1px solid #ddd;
 }

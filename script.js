@@ -1,9 +1,7 @@
 const get = (k, d) => JSON.parse(localStorage.getItem(`table-${k}`)) ?? d;
 const set = (k, v) => localStorage.setItem(`table-${k}`, JSON.stringify(v));
 
-document.querySelector('#t').addEventListener('keyup', e => {
-    set('number', document.querySelector('#t').value);
-});
+document.querySelector('#t').addEventListener('keyup', e => set('number', document.querySelector('#t').value));
 
 const gt = e => {
   const t = document.querySelector('#t').value;
